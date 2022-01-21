@@ -35,7 +35,7 @@ public class OptifabricSetup implements Runnable {
 	public static File optifineRuntimeJar = null;
 	public static boolean usingScreenAPI;
 
-	//This is called early on to allow us to get the transformers in beofore minecraft starts
+	//This is called early on to allow us to get the transformers in before minecraft starts
 	@Override
 	public void run() {
 		OptifineInjector injector;
